@@ -1,0 +1,53 @@
+body {font-size: 100%;
+background-color: #27475B;
+
+}
+
+.container {
+background-image: url(../images/cartoon_underwater_world_vectors%202.svgz);
+background-repeat: no-repeat;
+background-position: center; 
+
+  }
+
+.container2 {
+background-image: url(../images/cartoon_underwater_world_vectors.svgz);
+background-repeat: no-repeat;
+background-position: center; 
+
+  }
+
+
+a {display:inline-block;
+     margin-top: 40%;
+     margin-left: 20%;
+     margin-bottom: 10%;
+     background:deeppink;
+     border: dashed;
+     text-decoration: none;
+     color: white;
+     padding: 20px 32px;
+     cursor: pointer;
+     font-family: 'IM Fell DW Pica SC', serif;
+     font-size: 2rem;
+}
+
+.seashell {
+  cursor: url(../images/seashell-icon-vector-clipart.png), auto;
+}
+
+
+.background-a {animation: pulse 4s infinite;
+   
+}
+
+@keyframes pulse {
+  
+  0% {background-color: deeppink}
+  100% {
+    background-color:coral;
+  }
+ 
+}
+
+.background-a-size {animation: size }
